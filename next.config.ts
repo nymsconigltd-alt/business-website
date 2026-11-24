@@ -1,10 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  output: "standalone",
-  cacheComponents: true,
-  partialPrefetching: true,
+  /* Use standalone output for Docker/Coolify, standard output on Vercel */
+  ...(process.env.VERCEL ? {} : { output: "standalone" }),
   turbopack: {
     rules: {
       "*.css": {
