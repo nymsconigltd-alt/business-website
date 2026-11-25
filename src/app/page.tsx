@@ -97,7 +97,7 @@ export default function HomePage() {
               Payment Gateway
             </p>
             <p className="mt-1 text-sm font-bold text-[#0F2942]">
-              Secured by Flutterwave
+              Secured by Payment Provider
             </p>
           </div>
         </div>

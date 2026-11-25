@@ -23,7 +23,7 @@ export const COMPANY = {
     "No 3 St Anthony Street, Adankolo, Lokoja, Kogi State, Nigeria",
   email: "info@nymsconigltd.com",
   supportEmail: "support@nymsconigltd.com",
-  phone: "+234 (0) 800 000 0000",
+  phone: "+234 (0) 8031528959",
   businessHours: "Monday – Friday: 8:00 AM – 5:00 PM WAT",
   domain: "https://nymsconigltd.com",
   policyEffectiveDate: "November 23, 2026",
